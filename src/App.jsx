@@ -89,12 +89,12 @@ const PROJECTS = [
     prompt: "Futuristic automated deep-water port, smart robotic cranes handling cargo, eco-friendly logistics hub, integrated rail network, massive cargo ships, cinematic lighting."
   },
   {
-    id: 'p6', title: 'Plateforme Multimodale', theme: THEMES.SMART,
-    lat: 37.236078, lng: 9.883252, icon: <Building2 className="w-5 h-5" />,
-    problem: "Dispersion des instituts et manque d'infrastructures d'accueil.",
-    vision: "Campus unifié, moderne et connecté favorisant les synergies avec le Technopôle.",
-    stats: [{ label: 'Localisation', value: 'Menzel Abderrahmen' }, { label: 'Connexion', value: 'Pôle Compétitivité' }],
-    prompt: "A modern multimodal university campus in Tunisia, futuristic educational buildings, large green plazas with students, smart solar trees, interactive displays, bright daylight."
+    id: 'p6', title: 'Plateforme Multimodale & Gare RFR', theme: THEMES.INFRA,
+    lat: 37.236078, lng: 9.883252, icon: <MapPin className="w-5 h-5" />,
+    problem: "Dispersion des instituts, manque d'infrastructures d'accueil et mauvaise connexion entre les modes de transport desservant les pôles économiques.",
+    vision: "Campus unifié et gare moderne reliant Réseau Ferré Rapide (RFR), bus et mobilités douces, favorisant les synergies avec le Technopôle et le Pôle de Compétitivité.",
+    stats: [{ label: 'Localisation', value: 'Zarzouna / M. Abderrahmen' }, { label: 'Impact', value: 'Mobilité & Compétitivité' }],
+    prompt: "Futuristic multimodal university campus and train station in Bizerte, high speed train arriving, glass and steel architecture, smart solar trees, solar panels, people commuting and studying, bright daylight, 8k."
   },
   {
     id: 'p7', title: 'Pôle urbain & Station Éco-Touristique', theme: THEMES.GREEN,
@@ -153,12 +153,12 @@ const PROJECTS = [
     prompt: "Luxury eco-friendly hotels in Sidi Salem Bizerte, modern beachfront architecture, smart city integration, green roofs, beautiful Mediterranean sea."
   },
   {
-    id: 'p14', title: 'Gare Multimodale & RFR', theme: THEMES.INFRA,
-    lat: 37.240594, lng: 9.889003, icon: <MapPin className="w-5 h-5" />,
-    problem: "Mauvaise connexion entre les modes de transport desservant les pôles économiques.",
-    vision: "Gare moderne reliant Réseau Ferré Rapide (RFR), bus et mobilités douces.",
-    stats: [{ label: 'Localisation', value: 'Zarzouna / Pôle' }, { label: 'Impact', value: 'Mobilité durable' }],
-    prompt: "Futuristic multimodal train station in Bizerte, high speed train arriving, glass and steel architecture, solar panels, people commuting, sunny."
+    id: 'p14', title: 'Aménagement Esplanade Rondeau & Assainissement Littoral', theme: THEMES.BLUE,
+    lat: 37.15112974155078, lng: 9.806337884824725, icon: <Waves className="w-5 h-5" />,
+    problem: "Dégradation de la plage Rondeau et insuffisance des infrastructures d'assainissement littoral de Menzel Bourguiba.",
+    vision: "Réhabilitation et aménagement de la plage Rondeau avec amélioration des infrastructures d'assainissement pour un littoral sain et attractif.",
+    stats: [{ label: 'Localisation', value: 'Menzel Bourguiba' }, { label: 'Vocation', value: 'Littoral & Assainissement' }],
+    prompt: "Beautiful rehabilitated beach esplanade in Menzel Bourguiba Tunisia, coastal promenade along the Mediterranean sea, modern sanitation infrastructure, clean water, people walking by the beach, sunset glow, 8k hyper-realistic."
   },
   {
     id: 'p15', title: 'Protection contre inondation', theme: THEMES.GREEN,
@@ -173,7 +173,7 @@ const PROJECTS = [
     lat: 37.260038, lng: 9.773050, icon: <Factory className="w-5 h-5" />,
     problem: "Capacité insuffisante face à la croissance urbaine et pollution du lac.",
     vision: "Extension de la station pour une dépollution durable et respectueuse de l'écosystème.",
-    stats: [{ label: 'Localisation', value: 'Bizerte Sud' }, { label: 'Action', value: 'Dépollution' }],
+    stats: [{ label: 'Localisation', value: 'Sidi Ahmed' }, { label: 'Action', value: 'Dépollution' }],
     prompt: "A high-tech green water sanitation and treatment plant, modern eco-friendly industrial architecture, clean water discharge, drone view."
   },
   {
